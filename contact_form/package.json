@@ -1,0 +1,9 @@
+{
+  "name": "mern-contact-form",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+}
